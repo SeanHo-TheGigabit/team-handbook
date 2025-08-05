@@ -1,5 +1,13 @@
 # Task Lifecycle Checklist
 
+1. Get a task
+2. Review 大概理解task是什么意思
+3. Discussion 然后把理解的回去和给task的人讨论是否理解正确
+4. Planning 然后把task拆分变成小个的task
+5. ETA 给予每个task的eta和expected output
+6. Coding （有可能会有block，例如expected output变了等等，需要变成另一个task，30分钟处理不了的bug可以consider block了）
+7. Review
+
 ## Before Starting a Task
 
 - [ ] Break down the task into subtasks or phases [[WTM] Plan First](workflow-and-task-management.md#plan-first)
