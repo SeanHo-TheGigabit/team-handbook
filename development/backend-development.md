@@ -4,6 +4,7 @@
 - [Before start coding](#before-start-coding)
 - [When new feature release](#when-new-feature-release)
 - [When create a new endpoint](#when-create-a-new-endpoint)
+- [Before commit and push](#before-commit-and-push)
 
 ## When there is new task arrive
 
@@ -45,3 +46,8 @@ If there is the data structure change, we need to consider the following:
 
 - Always need to take care about the default value of the endpoint, expecially if we not gonna save a default value in the database.
 - If it is a sensitive information, such as password, or API key, we need to take care about the security of the endpoint.
+- Use uuid7 as the PK instead integer
+
+## Before commit and push
+
+- make sure no print() in the code
