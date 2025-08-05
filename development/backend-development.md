@@ -43,4 +43,5 @@ If there is the data structure change, we need to consider the following:
 
 ## When create a new endpoint
 
-Always need to take care about the default value of the endpoint, expecially if we not gonna save a default value in the database.
+- Always need to take care about the default value of the endpoint, expecially if we not gonna save a default value in the database.
+- If it is a sensitive information, such as password, or API key, we need to take care about the security of the endpoint.
